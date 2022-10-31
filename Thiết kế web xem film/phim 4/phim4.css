@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* .heading */
+.heading{
+    position: fixed;
+    background-color: white;
+    margin-top:0px;
+    padding: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.group11{
+    position: relative;
+}
+.logo{
+    width: 200px;
+}
+.logo img{
+    float: left;
+    margin-top: -10px;
+}
+.logo h1{
+    margin-top: 8px;
+}
+.group11 ul h1 a:hover{
+    color: red;
+}
+.group11 ul .group11-menu{
+    margin-top: 10px;
+    padding: 10px;
+    width: 250px;
+    background-color: white;
+}
+.group11 ul a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.group11 ul a:hover{
+}   
+.group11-menu li{
+    color:black;
+    font-size: auto;
+    font-weight:bold;
+    padding: 5px;
+    list-style-type:none;
+}
+/* .group-menu đầu tiên */
+.group11 ul > .group11-menu{
+    display: none;
+    position: absolute;
+}
+/* Nhấp chuột */
+.group11 ul:hover .group11-menu{
+    display: block;
+}
+
+.group11{
+    margin:auto 120px auto 150px;
+}
+/* menu */
+.heading{
+    display: inline-flex;
+    width: 100%;
+}
+.menu ul li{
+    display: inline-block;
+    list-style-type:none;
+    padding: 15px;
+    padding-top: 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(79, 75, 75);
+    font-size: 25px;
+    font-weight: bold;
+}
+.menu ul li a:hover{
+    color: red;
+}
+.rap-chieu{
+    position: relative;
+}
+.rap-chieu-menu{
+    width: 150px;
+    margin-left: -15px;
+    background-color: white;
+}
+.menu ul li > .rap-chieu-menu{
+    display: none;
+    position: absolute;
+}
+.menu ul li:hover .rap-chieu-menu{
+    display: block;
+}
+.rap-chieu-menu li a:hover{
+    color:red;
+}
+.rap-chieu-menu li{
+    margin-bottom: -70px;
+}
+.rap-chieu ul li a{
+    font-weight: bold;
+    font-size: 17px;
+}
+.lich-chieu{
+    position: relative;
+}
+.lich-chieu-menu{
+    width: 150px;
+    margin-left: -15px;
+    background-color: white;
+}
+.menu ul li > .lich-chieu-menu{
+    position: absolute;
+    display: none;
+}
+.menu ul li:hover .lich-chieu-menu{
+    display: block;
+    width: 200px;
+}
+.lich-chieu ul li a{
+    font-weight: bold;
+    font-size: 17px;
+}
+.lich-chieu ul{
+    margin-left: -15px;
+}
+.lich-chieu-menu li a:hover{
+    color: red;
+}
+.lich-chieu-menu li {
+    margin-bottom: -70px;
+}
+.Blog-dien-anh{
+    position: relative;
+}
+.menu ul li > .Blog-dien-anh-menu{
+    display: none;
+    position: absolute;
+}
+.menu ul li:hover .Blog-dien-anh-menu{
+    display: block;
+    width: 200px;
+}
+.Blog-dien-anh ul li a{
+    font-weight: bold;
+    font-size: 17px;
+}
+.Blog-dien-anh ul{
+    margin-left: -15px;
+}
+.Blog-dien-anh-menu li a:hover{
+    color: red;
+}
+.Blog-dien-anh-menu li{
+    margin-bottom: -50px;
+}
+.Blog-dien-anh-menu{
+    width: 150px;
+    margin-left: -15px;
+    background-color: white;
+}
+.menu ul .dat-ve-online a{
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 100px;
+}
+/* .heading */
+/*contener*/
+.content{
+  background-color: rgb(247, 245, 245);
+  width: 100%;
+  margin-top: 10px;
+  height: 600px;
+  padding-top: 100px;
+}
+#top{
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 30px;
+  padding-left: 60px;
+  letter-spacing: -2px;
+}
+#top a{
+  text-decoration: none;
+}
+#top span{
+  color: rgb(87, 87, 180);
+}
+.phim-4 img{
+  float: left;
+  border-radius: 80px 50px 50px 0;
+  box-sizing: border-box;
+  width: 350px;
+  height: 440px;
+  padding: 20px 20px 0 60px;
+}
+.tieude{
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  letter-spacing: -1px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.noidung p{
+  font-size: 20px;
+  line-height: 30px;
+  text-align:justify;
+  padding-right: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bottom{
+  margin: 15px;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+table{
+  margin-top: 15px;
+  text-align: left;
+  font-size: 19px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+table th+th{
+  padding: 5px 40px 5px 15px;
+  line-height: 20px;
+}
+.b1{
+  width: 160px;
+}
+/*contener*/
